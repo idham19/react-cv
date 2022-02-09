@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 const Navigation = () => {
     return (
         <div className='sidebar'>
@@ -22,7 +23,7 @@ const Navigation = () => {
         </li>
 
         <li>
-        <NavLink to='/Knowledges'  className={(navData) => navData.isActive ? "active" : "" }>
+        <NavLink to='/Knowledges'   >
          <i className='fas fa-mountain'></i>
           <span>Knowledges</span>
         </NavLink>
@@ -60,8 +61,8 @@ const Navigation = () => {
                 </li>                         
             </ul>
         </div>
-         <div className="signtaure">
-             <p>mahdi -2022</p>
+         <div className="signature">
+             <p>Mahdi-2022</p>
          </div>
 
 
