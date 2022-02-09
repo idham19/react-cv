@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className="id">
             <div className="idContent">
              <img src="./media/billGates.jpg" alt="profile-pic" />
-             <h3>mahdi profile</h3>
+             <h3>Mahdi Profile</h3>
             </div>
         </div>
 
@@ -22,7 +22,7 @@ const Navigation = () => {
         </li>
 
         <li>
-        <NavLink to='/Knowledges'  activeClassName='navActive'>
+        <NavLink to='/Knowledges'  className={(navData) => navData.isActive ? "active" : "" }>
          <i className='fas fa-mountain'></i>
           <span>Knowledges</span>
         </NavLink>

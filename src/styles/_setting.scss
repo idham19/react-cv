@@ -4,11 +4,11 @@ $font-1: 'Nova round',cursive;
 $font-2:'Dosis' ,sans-serif;
 $font-3:'Josefin sans', serif;
 
-$color-1:rgb(27, 25, 25);
+$color-1:rgb(59, 50, 104);
 $color-2:rgb(112, 112, 187);
 $color-3:rgb(145, 235, 220);
-$color-4:rgb(255, 196, 0);
-$color-5:rgb(236, 192, 240);
+$color-4:rgb(241, 234, 134);
+$color-5:rgb(106, 195, 223);
 $white:white;
 $black:#333;
 
@@ -38,4 +38,28 @@ button{
 }
 li{
     list-style-type: none;
+}
+a{
+    color: $black;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+a:visited {
+color: black;
+}
+.home, .knowledges, .portfolio, .contact{
+display: flex;
+@media screen and (max-width:850px ){
+    display: block !important;
+}
+
+}
+.homeContent, .knowledgesContent ,.portfolioContent ,.contactContent{
+
+margin-left: .4rem;
+@media screen and (max-width: 850px) {
+    margin-left: 0px;
+    
+}
 }
