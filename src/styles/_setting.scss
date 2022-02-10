@@ -17,10 +17,11 @@ $shadow:0 1px 3px #333;
 $min-height:95vh;
 
 @mixin verticalCenter {
-  display: flex;
- justify-content: center;
- align-items: center; 
-}
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+  }
+  
 *{
     box-sizing: border-box;
     margin: 0;
